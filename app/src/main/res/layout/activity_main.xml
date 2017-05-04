@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#06C9A7"
+    tools:context="com.example.mrityunjay.androidassignment74.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/textView"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="Login Screen"
+        android:textSize="20dp"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/textView"
+        android:hint="User Name"
+        android:id="@+id/name"
+        android:textColorHint="#000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:textColorHighlight="@color/colorAccent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:background="#fff"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/name"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:background="#fff"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#000"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:id="@+id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="LOGIN"
+        android:textColor="#06C9A7"
+
+        />
+
+</RelativeLayout>
